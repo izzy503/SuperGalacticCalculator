@@ -1,15 +1,9 @@
-// index.js
-
-// Import statements (if you need any)
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/styles.css';
-
 // Business Logic (export class SuperGalacticAgeCalculator {
 export class SuperGalacticAgeCalculator {
   constructor(age) {
     this.age = age;
     this.planetYears = {
+      Earth: 1,
       Mercury: 0.24,
       Venus: 0.62,
       Mars: 1.88,
