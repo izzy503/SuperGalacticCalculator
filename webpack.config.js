@@ -18,7 +18,7 @@ module.exports = {
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'SuperGalacticeAgeCalculator',
+      title: 'SuperGalacticAgeCalculator',
       template: './src/index.html',
       inject: 'body'
     })

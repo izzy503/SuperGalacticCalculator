@@ -5,8 +5,8 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
-// Business Logic (GalacticAgeCalculator class)
-export class GalacticAgeCalculator {
+// Business Logic (export class SuperGalacticAgeCalculator {
+export class SuperGalacticAgeCalculator {
   constructor(age) {
     this.age = age;
     this.planetYears = {

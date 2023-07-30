@@ -1,5 +1,5 @@
 {
-    "name": "GalacticSuperCalculator",
+    "name": "SuperGalacticAgeCalculator",
     "version": "1.0.0",
     "description": "application should take a person's age in years and create a class",
     "main": "index.js",
