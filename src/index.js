@@ -18,5 +18,12 @@ class GalacticAgeCalculator {
     };
   }
 
+  calculateAge(planet) {
+    return this.age / this.planetYears[planet];
+  }
+
+  yearsSince(previousAge, planet) {
+    return (this.age - previousAge) / this.planetYears[planet];
+  }
 
 
