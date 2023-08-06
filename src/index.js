@@ -23,3 +23,5 @@ export default class SuperGalacticAgeCalculator {
     return (futureAge - this.age) / this.planetYears[planet];
   }
 }
+
+jjj
