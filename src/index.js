@@ -1,5 +1,5 @@
 // Business Logic (export class SuperGalacticAgeCalculator {
-export class SuperGalacticAgeCalculator {
+export default class SuperGalacticAgeCalculator {
   constructor(age) {
     this.age = age;
     this.planetYears = {
