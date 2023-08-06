@@ -1,6 +1,6 @@
 ## Super Galactic Age Calculator
 
-TThis is a unique application that determines a user's age based on a planet's solar years. While a solar year on Earth is familiar to most of us, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts only 88 days.
+This is a unique application that determines a user's age based on a planet's solar years. While a solar year on Earth is familiar to most of us, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts only 88 days.
 
 ## Features
 
@@ -33,13 +33,16 @@ git clone https://github.com/izzy503/SuperGalacticAgeCalculator.git
 
 Make sure you have node and npm installed. Navigate to the directory and install the required packages:
 
-Copy code
-npm install
-Run the tests:
+// Install dependencies listed in package.json.
+$ npm install
+//Confirm NPM works to build the project and run a live server.
+$ npm run start
+//Confirm tests run (confirm you have the test files in place this confirms that Jest is installed and working.)
+$ npm run test
+Commit remaining files with your project
+$ git add .
+$ git commit -m "Confirm file structure in place and environment working
 
-bash
-Copy code
-npm test
 Use the methods in the codebase as per your requirements.
 
 ## Known Bugs
